@@ -1,0 +1,22 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geocoding with Autocomplete Example</title>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbUVVfWx2Ghaty0_o6toUor2W2UZLH1ro&libraries=places"></script>
+</head>
+<body>
+  <h1 style="font-size: 3em;">Geocoding with Autocomplete Example</h1>
+  <h2 style="font-size: 2em;">
+    <label for="addressInput">Enter Address:</label>
+    <input style="height:2em;" type="text" id="addressInput" placeholder="Enter address..." autocomplete="off">
+    <button onclick="geocodeAddress()">Get Coordinates</button>
+  </h2>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
